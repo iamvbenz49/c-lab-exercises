@@ -13,6 +13,19 @@ int main()
             arr[i][j]*=5;
         }
     }
+    printf("\nBefore Scalar Multiplication");
+     for(int i=0;i<r;i++){
+        for(int j=0;j<c;j++){
+            printf("%d ",arr[i][j]);
+        }
+        printf("\n");
+    }
+    for(int i=0;i<r;i++){
+        for(int j=0;j<c;j++){
+            arr[i][j]*=5;
+        }
+    }
+    printf("\After Scalar Multiplication");
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
             printf("%d ",arr[i][j]);
